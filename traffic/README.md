@@ -1,0 +1,3 @@
+First, I had some problems running the code because tensorflow doesn't work properly on M1 macs as mine, so I had to run the code on a different computer (Windows), that's where I found helpful os.path.join
+
+Then, I used the Convolutional Neural Networks code example, from the class's notes, as a guide for creating the model. After playing with the parameters, I went from 1 hidden layer to 5 hidden layers, and changed the dropout from 50% to 30%. Adding additional hidden layers reduced the loss and improved the accuracy, but also made the run time longer.
